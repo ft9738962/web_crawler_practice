@@ -1,3 +1,7 @@
+import requests, time, emoji
+from bs4 import BeautifulSoup
+from requests.exceptions import RequestException
+
 def get_one_page(url):
     try:
         headers = {
